@@ -1,10 +1,10 @@
-# part 1: comment
+# ------------ part 1: comment
 """
 This is a comment, in python comments start with a hash symbol. there is no multi-line comment syntax in python, 
 but you can use triple quotes to create a multi-line string that acts like a comment.
 """
 
-# part 2: print
+# ------------ part 2: print
 
 print('Hello World!') # single quotes
 print("Hello World!") # double quotes
@@ -17,11 +17,11 @@ print('hello', 'world', end='!') # custom end, this will print with an exclamati
 print('hello', 'world', sep='-', end='!') # custom separator and end, this will print with a hyphen in between and an exclamation mark at the end
 print() # print a new line
 
-# part 3: input
+# ------------ part 3: input
 a =  input("Enter your name: ")
 print('your name is: ',a)
 
-# part 4: print types
+# ------------ part 4: print types
 print(type('hello')) # <class 'str'>
 print(type(1)) # <class 'int'>
 print(type(1.0)) # <class 'float'>
@@ -34,7 +34,7 @@ print(type({'a': 1, 'b': 2})) # <class 'dict'>
 print(type(a))
 
 
-# part 4: Python Implementation
+# ------------ part 5: Python Implementation
 # CPython: The default implementation of Python, written in C.
 # PyPy: An alternative implementation of Python, written in RPython, which is a subset of Python.
 # IronPython: An implementation of Python for the .NET framework.
