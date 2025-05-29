@@ -33,4 +33,11 @@ print(type({1, 2, 3})) # <class 'set'>
 print(type({'a': 1, 'b': 2})) # <class 'dict'>
 print(type(a))
 
+
+# part 4: Python Implementation
+# CPython: The default implementation of Python, written in C.
+# PyPy: An alternative implementation of Python, written in RPython, which is a subset of Python.
+# IronPython: An implementation of Python for the .NET framework.
+# Jython: An implementation of Python for the Java platform.
+
 # PEP: Python Enhancement Proposal
